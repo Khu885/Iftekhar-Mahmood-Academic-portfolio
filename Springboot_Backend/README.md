@@ -1,6 +1,6 @@
-# Uncle Portfolio Backend
+# Iftekhar Mahmood Academic Portfolio – Spring Boot Backend
 
-This Spring Boot backend powers the portfolio content, admin management, authentication, and file delivery for the existing Next.js frontend.
+This Spring Boot backend powers the portfolio content, admin management, authentication, and file delivery for the Next.js frontend.
 
 ## 1. Start PostgreSQL
 
@@ -13,10 +13,10 @@ The database listens on `localhost:5432` with database `uncle_portfolio`.
 
 ## 2. Configure environment variables
 
-Copy the sample values:
+Copy the sample values from the project root:
 
 ```bash
-cp .env.example .env
+cp ../.env.example ../.env
 ```
 
 Set the required variables before starting the backend:
@@ -34,22 +34,20 @@ Never commit a real JWT secret or password.
 
 ## 3. Start the Spring Boot app
 
-From the backend directory:
+From the `Springboot_Backend` directory:
 
 ```bash
-export JAVA_HOME=/path/to/jdk-21
-export PATH="$JAVA_HOME/bin:$PATH"
 mvn spring-boot:run
 ```
 
 ## 4. Start the Next.js frontend
 
-From the frontend project folder:
+From the project root, in a separate terminal:
 
 ```bash
-cd ../my-next-portfolio-app
+cd ../Next_Frontend
 npm install
-NEXT_PUBLIC_API_URL=http://localhost:8080 npm run dev
+npm run dev
 ```
 
 Public pages read from the backend automatically, and the admin UI is available at:
@@ -70,16 +68,8 @@ Once the backend is running, open:
 
 ## 6. Log in to the admin panel
 
-The admin account is seeded from environment variables. Default login is:
-
-```json
-{
-  "username": "admin",
-  "password": "change-me"
-}
-```
-
-Use `POST /api/auth/login` with the values from your environment. The server uses an HTTP-only JWT cookie.
+The admin account is seeded from environment variables on first startup.  
+Use `POST /api/auth/login` with the values from your `.env`. The server uses an HTTP-only JWT cookie.
 
 The admin UI uploads files through `POST /api/admin/files/upload`, then stores returned asset IDs on book, publication, or CV records.
 
@@ -89,7 +79,7 @@ Uploaded PDF and image files are stored in PostgreSQL as `BYTEA` in `file_assets
 
 ## 8. Change the administrator password
 
-Update `ADMIN_PASSWORD` in your environment and restart the app. The seeded admin is created on startup if the username does not already exist.
+Update `ADMIN_PASSWORD` in your `.env` and restart the app. The seeded admin is created on startup if the username does not already exist.
 
 ## 9. Deploy the backend
 

@@ -1,4 +1,4 @@
-# Uncle Portfolio
+# Iftekhar Mahmood Academic Portfolio
 
 A full-stack academic portfolio application built with **Spring Boot** (backend) and **Next.js** (frontend).  
 It includes a public-facing portfolio page and a password-protected admin panel for managing books, publications, projects, and a CV.
@@ -8,20 +8,20 @@ It includes a public-facing portfolio page and a password-protected admin panel 
 ## Project Structure
 
 ```
-Uncle_portfolio/
-├── backend/                  # Spring Boot REST API (Java 17+)
+Iftekhar Mahmood Academic Portfolio/
+├── Springboot_Backend/           # Spring Boot REST API (Java 17+)
 │   └── src/
 │       └── main/
-│           ├── java/         # Application source code
-│           └── resources/    # YAML configs & Flyway migrations
-├── my-next-portfolio-app/    # Next.js 14 frontend
+│           ├── java/             # Application source code
+│           └── resources/        # YAML configs & Flyway migrations
+├── Next_Frontend/                # Next.js 14 frontend
 │   └── src/
-│       ├── app/              # App Router pages (public + /admin)
-│       ├── components/       # React components
-│       ├── lib/              # API client utilities
-│       └── data/             # Static JSON fallback data
-├── docker-compose.yml        # PostgreSQL database service
-├── .env.example              # ← Copy to .env and fill in values
+│       ├── app/                  # App Router pages (public + /admin)
+│       ├── components/           # React components
+│       ├── lib/                  # API client utilities
+│       └── data/                 # Static JSON fallback data
+├── docker-compose.yml            # PostgreSQL database service
+├── .env.example                  # ← Copy to .env and fill in values
 └── .gitignore
 ```
 
@@ -58,7 +58,7 @@ The database listens on `localhost:5432` (or the port set in `.env`).
 ### 3. Start the backend
 
 ```bash
-cd backend
+cd Springboot_Backend
 mvn spring-boot:run
 ```
 
@@ -67,7 +67,7 @@ The API server starts at [http://localhost:8080](http://localhost:8080).
 ### 4. Start the frontend
 
 ```bash
-cd my-next-portfolio-app
+cd Next_Frontend
 npm install
 npm run dev
 ```
