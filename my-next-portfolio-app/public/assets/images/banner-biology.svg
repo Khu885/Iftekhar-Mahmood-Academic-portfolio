@@ -1,0 +1,304 @@
+<svg class="w-full h-full object-cover" viewBox="0 0 1440 210" preserveAspectRatio="xMidYMid slice" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <!-- Deep Obsidian & Gunmetal Navy Gradient -->
+                <linearGradient id="bg-banner-masculine" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#070c17" />
+                    <stop offset="35%" stop-color="#0c1628" />
+                    <stop offset="70%" stop-color="#111c30" />
+                    <stop offset="100%" stop-color="#0a1220" />
+                </linearGradient>
+
+                <!-- Bold Metallic Steel & Carbon Gradient -->
+                <linearGradient id="carbon-steel-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#1e293b" />
+                    <stop offset="50%" stop-color="#0f172a" />
+                    <stop offset="100%" stop-color="#020617" />
+                </linearGradient>
+
+                <!-- Deep Crimson & Burnt Mahogany Shadow -->
+                <linearGradient id="deep-mahogany-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#64111a" />
+                    <stop offset="60%" stop-color="#3b080f" />
+                    <stop offset="100%" stop-color="#1e0408" />
+                </linearGradient>
+
+                <!-- Powerful Burnished Bronze / Amber Accent Gradient -->
+                <linearGradient id="bronze-gold-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#b45309" />
+                    <stop offset="50%" stop-color="#d97706" />
+                    <stop offset="100%" stop-color="#f59e0b" />
+                </linearGradient>
+
+                <!-- Dynamic Electric Cobalt Vector Glow -->
+                <linearGradient id="cobalt-vector-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35" />
+                    <stop offset="60%" stop-color="#1d4ed8" stop-opacity="0.15" />
+                    <stop offset="100%" stop-color="#0f172a" stop-opacity="0.0" />
+                </linearGradient>
+            </defs>
+
+            <!-- Dark Industrial Background Canvas -->
+            <rect width="1440" height="210" fill="url(#bg-banner-masculine)" />
+
+            <!-- Precision Blueprint Calibration Grid -->
+            <g stroke="#1e2d4a" stroke-width="0.75" opacity="0.65">
+                <line x1="0" y1="35" x2="1440" y2="35" stroke-dasharray="4 4" />
+                <line x1="0" y1="85" x2="1440" y2="85" stroke-dasharray="4 4" />
+                <line x1="0" y1="135" x2="1440" y2="135" stroke-dasharray="4 4" />
+                <line x1="0" y1="185" x2="1440" y2="185" />
+                <line x1="160" y1="0" x2="160" y2="210" stroke-dasharray="2 4" />
+                <line x1="380" y1="0" x2="380" y2="210" stroke-dasharray="2 4" />
+                <line x1="640" y1="0" x2="640" y2="210" stroke-dasharray="2 4" />
+                <line x1="920" y1="0" x2="920" y2="210" stroke-dasharray="2 4" />
+                <line x1="1180" y1="0" x2="1180" y2="210" stroke-dasharray="2 4" />
+            </g>
+
+            <!-- ================= SECTION 1: CHISELED GEOMETRIC RIDGES & ARCHITECTURAL STRUCTURE ================= -->
+            <!-- Massive Angular Geometric Mountain Strata in Deep Crimson & Charcoal -->
+            <polygon points="-20,210 80,45 220,120 340,30 460,115 540,75 580,210" fill="url(#deep-mahogany-grad)"
+                opacity="0.9" />
+            <polygon points="120,210 240,78 380,145 490,52 610,138 680,210" fill="url(#carbon-steel-grad)"
+                opacity="0.85" />
+            <polygon points="40,210 180,95 280,165 420,82 520,175 560,210" fill="#080e1a" opacity="0.7" />
+
+            <!-- Chiseled Razor Edges & Coordinate Crosshairs -->
+            <g stroke="#991f2b" stroke-width="1.6" opacity="0.8">
+                <line x1="80" y1="45" x2="220" y2="120" />
+                <line x1="220" y1="120" x2="340" y2="30" />
+                <line x1="340" y1="30" x2="460" y2="115" />
+            </g>
+            <circle cx="340" cy="30" r="3.5" fill="#f59e0b" />
+
+            <!-- ================= SECTION 2: RIGID PHARMACEUTICAL MOLECULAR LATTICES ================= -->
+            <!-- Heavy Polycyclic / Steroid Nucleus & Aromatic Ring Architecture -->
+            <g stroke="#94a3b8" stroke-width="1.8" opacity="0.55" fill="none">
+                <!-- Ring 1 -->
+                <polygon points="210,50 232,38 254,50 254,74 232,86 210,74" />
+                <!-- Ring 2 (Fused) -->
+                <polygon points="254,50 276,38 298,50 298,74 276,86 254,74" />
+                <!-- Ring 3 (Fused) -->
+                <polygon points="298,50 320,38 342,50 342,74 320,86 298,74" />
+                <!-- Cyclopentane ring (Steroid core) -->
+                <polygon points="342,50 364,42 376,62 360,82 342,74" />
+                <!-- Active functional nodes -->
+                <circle cx="232" cy="38" r="3" fill="#f59e0b" stroke="none" />
+                <circle cx="320" cy="86" r="3" fill="#38bdf8" stroke="none" />
+                <line x1="232" y1="86" x2="232" y2="104" stroke="#d97706" stroke-width="2" />
+                <line x1="276" y1="38" x2="276" y2="20" stroke="#38bdf8" stroke-width="2" />
+            </g>
+
+            <!-- ================= SECTION 3: CELLULAR MEMBRANE & TRANSMEMBRANE RECEPTOR ================= -->
+            <!-- Deep Blue Monolithic Structural Ridge Backdrop -->
+            <polygon points="560,210 680,60 810,130 940,40 1060,110 1140,210" fill="#0f1f38" opacity="0.95" />
+            <polygon points="630,210 740,85 860,150 990,65 1110,145 1190,210" fill="#162744" opacity="0.85" />
+
+            <!-- Phospholipid Bilayer Membrane (Dual Leaflet with Hydrophobic Tails) -->
+            <g opacity="0.85">
+                <!-- Upper Leaflet Polar Heads -->
+                <g fill="#38bdf8" stroke="#0e1726" stroke-width="1">
+                    <circle cx="580" cy="148" r="4.5" />
+                    <circle cx="595" cy="148" r="4.5" />
+                    <circle cx="610" cy="148" r="4.5" />
+                    <circle cx="625" cy="148" r="4.5" />
+                    <circle cx="715" cy="148" r="4.5" />
+                    <circle cx="730" cy="148" r="4.5" />
+                    <circle cx="745" cy="148" r="4.5" />
+                    <circle cx="760" cy="148" r="4.5" />
+                    <circle cx="775" cy="148" r="4.5" />
+                    <circle cx="790" cy="148" r="4.5" />
+                    <circle cx="805" cy="148" r="4.5" />
+                </g>
+
+                <!-- Lower Leaflet Polar Heads -->
+                <g fill="#38bdf8" stroke="#0e1726" stroke-width="1">
+                    <circle cx="580" cy="182" r="4.5" />
+                    <circle cx="595" cy="182" r="4.5" />
+                    <circle cx="610" cy="182" r="4.5" />
+                    <circle cx="625" cy="182" r="4.5" />
+                    <circle cx="715" cy="182" r="4.5" />
+                    <circle cx="730" cy="182" r="4.5" />
+                    <circle cx="745" cy="182" r="4.5" />
+                    <circle cx="760" cy="182" r="4.5" />
+                    <circle cx="775" cy="182" r="4.5" />
+                    <circle cx="790" cy="182" r="4.5" />
+                    <circle cx="805" cy="182" r="4.5" />
+                </g>
+
+                <!-- Hydrophobic Hydrocarbon Tail Wiggles -->
+                <g stroke="#64748b" stroke-width="1.4" fill="none" opacity="0.7">
+                    <path d="M580 152 Q582 165 580 178 M583 152 Q581 165 583 178" />
+                    <path d="M595 152 Q597 165 595 178 M598 152 Q596 165 598 178" />
+                    <path d="M610 152 Q612 165 610 178 M613 152 Q611 165 613 178" />
+                    <path d="M625 152 Q627 165 625 178 M628 152 Q626 165 628 178" />
+                    <path d="M715 152 Q717 165 715 178 M718 152 Q716 165 718 178" />
+                    <path d="M730 152 Q732 165 730 178 M733 152 Q731 165 733 178" />
+                    <path d="M745 152 Q747 165 745 178 M748 152 Q746 165 748 178" />
+                    <path d="M760 152 Q762 165 760 178 M763 152 Q761 165 763 178" />
+                    <path d="M775 152 Q777 165 775 178 M778 152 Q776 165 778 178" />
+                    <path d="M790 152 Q792 165 790 178 M793 152 Q791 165 793 178" />
+                    <path d="M805 152 Q807 165 805 178 M808 152 Q806 165 808 178" />
+                </g>
+            </g>
+
+            <!-- Multi-Pass Transmembrane Alpha-Helix Barrel / Receptor Complex -->
+            <g transform="translate(636, 118)">
+                <!-- Extracellular Receptor Binding Cleft -->
+                <path d="M12 24 C10 10, 20 0, 36 0 C52 0, 62 10, 60 24" fill="#0c182b" stroke="#f59e0b"
+                    stroke-width="2" />
+                <path d="M22 24 C22 12, 50 12, 50 24" fill="#1e293b" stroke="#38bdf8" stroke-width="1.2" />
+
+                <!-- Transmembrane Helical Barrels (Pore Subunits) -->
+                <rect x="12" y="24" width="12" height="52" rx="3" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+                <rect x="26" y="24" width="10" height="52" rx="2" fill="#0f172a" stroke="#f59e0b" stroke-width="1.5" />
+                <rect x="38" y="24" width="10" height="52" rx="2" fill="#0f172a" stroke="#f59e0b" stroke-width="1.5" />
+                <rect x="50" y="24" width="12" height="52" rx="3" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+
+                <!-- Helical Coil Winding Ribbons inside Barrels -->
+                <path d="M14 30 L22 36 M14 42 L22 48 M14 54 L22 60 M14 66 L22 72" stroke="#38bdf8" stroke-width="1.4" />
+                <path d="M52 30 L60 36 M52 42 L60 48 M52 54 L60 60 M52 66 L60 72" stroke="#38bdf8" stroke-width="1.4" />
+
+                <!-- Intracellular Signaling Tail Domain -->
+                <path d="M18 76 C16 92, 30 96, 36 88 C42 96, 56 92, 54 76" fill="none" stroke="#f59e0b" stroke-width="2"
+                    stroke-linecap="round" />
+                <circle cx="36" cy="88" r="3.5" fill="#f59e0b" />
+
+                <!-- Extracellular Glycan Tree / Oligosaccharide Antenna -->
+                <path d="M26 4 L18 -12 M18 -12 L10 -16 M18 -12 L22 -22 M46 4 L54 -10 M54 -10 L64 -14 M54 -10 L50 -20"
+                    stroke="#f59e0b" stroke-width="1.4" stroke-linecap="round" />
+                <circle cx="10" cy="-16" r="2.5" fill="#ffffff" />
+                <circle cx="22" cy="-22" r="2.5" fill="#f59e0b" />
+                <circle cx="64" cy="-14" r="2.5" fill="#ffffff" />
+                <circle cx="50" cy="-20" r="2.5" fill="#38bdf8" />
+            </g>
+
+            <!-- ================= SECTION 4: MACROMOLECULAR DNA DOUBLE HELIX ================= -->
+            <g opacity="0.92">
+                <!-- Nitrogenous Base-Pair Rungs (Hydrogen Bonds) -->
+                <g stroke="#94a3b8" stroke-width="2" stroke-linecap="round">
+                    <!-- Turn 1 -->
+                    <line x1="840" y1="80" x2="840" y2="120" stroke="#f59e0b" />
+                    <line x1="860" y1="72" x2="860" y2="128" stroke="#38bdf8" />
+                    <line x1="880" y1="68" x2="880" y2="132" stroke="#f59e0b" />
+                    <line x1="900" y1="72" x2="900" y2="128" stroke="#38bdf8" />
+                    <line x1="920" y1="82" x2="920" y2="118" stroke="#f59e0b" />
+
+                    <!-- Node crossover point (x=940) -->
+                    <line x1="940" y1="96" x2="940" y2="104" stroke="#ffffff" />
+
+                    <!-- Turn 2 -->
+                    <line x1="960" y1="116" x2="960" y2="84" stroke="#38bdf8" />
+                    <line x1="980" y1="126" x2="980" y2="74" stroke="#f59e0b" />
+                    <line x1="1000" y1="132" x2="1000" y2="68" stroke="#38bdf8" />
+                    <line x1="1020" y1="128" x2="1020" y2="72" stroke="#f59e0b" />
+                    <line x1="1040" y1="118" x2="1040" y2="82" stroke="#38bdf8" />
+
+                    <!-- Node crossover point (x=1060) -->
+                    <line x1="1060" y1="96" x2="1060" y2="104" stroke="#ffffff" />
+
+                    <!-- Turn 3 -->
+                    <line x1="1080" y1="80" x2="1080" y2="120" stroke="#f59e0b" />
+                    <line x1="1100" y1="72" x2="1100" y2="128" stroke="#38bdf8" />
+                    <line x1="1120" y1="68" x2="1120" y2="132" stroke="#f59e0b" />
+                    <line x1="1140" y1="74" x2="1140" y2="126" stroke="#38bdf8" />
+                </g>
+
+                <!-- Base-Pair Hydrogen Junction Nodes -->
+                <g fill="#070c17" stroke="#ffffff" stroke-width="1.5">
+                    <circle cx="840" cy="100" r="2.5" />
+                    <circle cx="860" cy="100" r="2.5" />
+                    <circle cx="880" cy="100" r="2.5" />
+                    <circle cx="900" cy="100" r="2.5" />
+                    <circle cx="960" cy="100" r="2.5" />
+                    <circle cx="980" cy="100" r="2.5" />
+                    <circle cx="1000" cy="100" r="2.5" />
+                    <circle cx="1020" cy="100" r="2.5" />
+                    <circle cx="1080" cy="100" r="2.5" />
+                    <circle cx="1100" cy="100" r="2.5" />
+                    <circle cx="1120" cy="100" r="2.5" />
+                </g>
+
+                <!-- Sugar-Phosphate Strand A (Sinusoidal Upper Wave) -->
+                <path
+                    d="M820 90 C840 70, 870 65, 900 70 C930 75, 950 115, 980 130 C1010 145, 1040 125, 1060 100 C1080 75, 1110 65, 1140 70 C1160 74, 1175 90, 1185 105"
+                    stroke="#38bdf8" stroke-width="3.5" stroke-linecap="round" fill="none" />
+
+                <!-- Sugar-Phosphate Strand B (Complementary Sinusoidal Lower Wave) -->
+                <path
+                    d="M820 110 C840 130, 870 135, 900 130 C930 125, 950 85, 980 70 C1010 55, 1040 75, 1060 100 C1080 125, 1110 135, 1140 130 C1160 126, 1175 110, 1185 95"
+                    stroke="url(#bronze-gold-grad)" stroke-width="3.5" stroke-linecap="round" fill="none" />
+
+                <!-- Phosphate Backbone Terminal Spheres -->
+                <circle cx="820" cy="90" r="4" fill="#38bdf8" />
+                <circle cx="820" cy="110" r="4" fill="#f59e0b" />
+                <circle cx="1185" cy="105" r="4" fill="#38bdf8" />
+                <circle cx="1185" cy="95" r="4" fill="#f59e0b" />
+            </g>
+
+            <!-- ================= SECTION 5: THERAPEUTIC PROTEIN / MONOCLONAL ANTIBODY (IgG) ================= -->
+            <!-- Massive Chiseled Slate & Titanium Blocks on Right Horizon -->
+            <polygon points="1020,210 1140,55 1250,110 1360,25 1460,95 1470,210" fill="#14213d" opacity="0.95" />
+            <polygon points="1120,210 1230,75 1330,135 1420,60 1480,120 1480,210" fill="#221015" opacity="0.85" />
+
+            <!-- Structural Monoclonal IgG Antibody Complex (Heavy & Light Chains + Fab/Fc Domains) -->
+            <g transform="translate(1210, 32)" opacity="0.95">
+                <!-- Fc Stem (Constant Effector Domain) -->
+                <g stroke="#38bdf8" stroke-width="2.5" fill="#090f1d">
+                    <rect x="52" y="90" width="16" height="42" rx="4" />
+                    <rect x="72" y="90" width="16" height="42" rx="4" />
+                    <text x="70" y="116" fill="#94a3b8" font-size="9" font-family="monospace"
+                        text-anchor="middle">Fc</text>
+                </g>
+
+                <!-- Disulfide Covalent Hinge Bridges (-S-S-) -->
+                <line x1="68" y1="98" x2="72" y2="98" stroke="#f59e0b" stroke-width="3" />
+                <line x1="68" y1="106" x2="72" y2="106" stroke="#f59e0b" stroke-width="3" />
+                <line x1="68" y1="114" x2="72" y2="114" stroke="#f59e0b" stroke-width="3" />
+
+                <!-- Left Fab Arm (Heavy + Light Chain Variable & Constant Domains) -->
+                <g transform="rotate(-35 52 85)">
+                    <rect x="32" y="25" width="16" height="35" rx="4" fill="#0f1f38" stroke="#38bdf8"
+                        stroke-width="2" />
+                    <rect x="52" y="25" width="16" height="35" rx="4" fill="#1e293b" stroke="#f59e0b"
+                        stroke-width="2" />
+                    <!-- Variable Antigen-Binding Region (Fv) -->
+                    <rect x="32" y="-12" width="16" height="33" rx="4" fill="#1e1017" stroke="#b91c1c"
+                        stroke-width="2" />
+                    <rect x="52" y="-12" width="16" height="33" rx="4" fill="#1e1017" stroke="#b91c1c"
+                        stroke-width="2" />
+                    <!-- Paratope Cleft Binding Notches -->
+                    <polygon points="40,-12 44,-4 48,-12" fill="#f59e0b" />
+                    <polygon points="60,-12 64,-4 68,-12" fill="#f59e0b" />
+                </g>
+
+                <!-- Right Fab Arm (Heavy + Light Chain Variable & Constant Domains) -->
+                <g transform="rotate(35 88 85)">
+                    <rect x="72" y="25" width="16" height="35" rx="4" fill="#1e293b" stroke="#f59e0b"
+                        stroke-width="2" />
+                    <rect x="92" y="25" width="16" height="35" rx="4" fill="#0f1f38" stroke="#38bdf8"
+                        stroke-width="2" />
+                    <!-- Variable Antigen-Binding Region (Fv) -->
+                    <rect x="72" y="-12" width="16" height="33" rx="4" fill="#1e1017" stroke="#b91c1c"
+                        stroke-width="2" />
+                    <rect x="92" y="-12" width="16" height="33" rx="4" fill="#1e1017" stroke="#b91c1c"
+                        stroke-width="2" />
+                    <!-- Paratope Cleft Binding Notches -->
+                    <polygon points="80,-12 84,-4 88,-12" fill="#f59e0b" />
+                    <polygon points="100,-12 104,-4 108,-12" fill="#f59e0b" />
+                </g>
+
+                <!-- Target Antigen Epitope Docking Spheres -->
+                <g fill="#f59e0b" stroke="#090f1d" stroke-width="1.5">
+                    <circle cx="16" cy="18" r="5" />
+                    <circle cx="124" cy="18" r="5" />
+                </g>
+            </g>
+
+            <!-- Strong Chiseled Technical Outline / Human Profile Facing the Horizon -->
+            <path
+                d="M1350 180 L 1362 135 L 1380 120 L 1385 92 L 1402 85 L 1412 92 L 1418 82 L 1438 78 L 1445 95 L 1450 112 L 1462 125 L 1468 180"
+                stroke="#38bdf8" stroke-width="2" stroke-linejoin="round" fill="none" opacity="0.65" />
+
+            <!-- Bottom High-Tech Baseline Ruler Line -->
+            <line x1="0" y1="209" x2="1440" y2="209" stroke="#38bdf8" stroke-width="1.5" opacity="0.4" />
+        </svg>

@@ -1,0 +1,101 @@
+# ============================================================
+# Uncle Portfolio – Root .gitignore
+# ============================================================
+
+# ----- Secrets & environment files ---------------------------
+.env
+.env.local
+.env.*.local
+*.env
+
+# ----- Java / Maven build output ----------------------------
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip          # never commit binary archives
+!*.env.example # but keep template files
+hs_err_pid*.log
+replay_pid*.log
+
+# ----- Spring / IDE generated --------------------------------
+spring-shell.log
+HELP.md
+
+# ----- IntelliJ IDEA -----------------------------------------
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# ----- Eclipse / STS -----------------------------------------
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# ----- NetBeans ----------------------------------------------
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ----- VS Code -----------------------------------------------
+.vscode/
+
+# ----- Node.js / Next.js -------------------------------------
+node_modules/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+.next/
+/out/
+/coverage
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.tsbuildinfo
+next-env.d.ts
+
+# ----- Vercel ------------------------------------------------
+.vercel
+
+# ----- macOS -------------------------------------------------
+.DS_Store
+*.pem
+
+# ----- Windows -----------------------------------------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ----- Bundled tooling (JDK, etc.) ---------------------------
+tools/
+
+# ----- Test output files -------------------------------------
+test-output.txt
+*.log
+
+# ----- Logs --------------------------------------------------
+logs/
+*.log
+
+# ----- AI / Agent-specific files (not for public repos) ------
+CLAUDE.md
+AGENTS.md
+.agents/

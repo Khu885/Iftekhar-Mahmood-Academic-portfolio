@@ -1,0 +1,141 @@
+@import "tailwindcss";
+
+:root {
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --color-text-main: #111827;
+  --color-text-muted: #555555;
+  --color-link-red: #a83232;
+  --color-link-red-hover: #822222;
+  --color-bg-subtle: #f8f9fa;
+  --color-border-subtle: #e5e7eb;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--color-text-main);
+  background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.65;
+}
+
+/* Reddish link styling matching the original design */
+a.owl-link,
+.owl-link a,
+a.text-owl-red,
+button.owl-link {
+  color: var(--color-link-red);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.15s ease;
+  cursor: pointer;
+}
+
+a.owl-link:hover,
+button.owl-link:hover {
+  color: var(--color-link-red-hover);
+}
+
+/* Navigation Tabs */
+.nav-link {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 13.5px;
+  font-weight: 500;
+  padding: 6px 14px;
+  border-radius: 9999px;
+  cursor: pointer;
+  letter-spacing: 0.01em;
+  border: 1px solid transparent;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-link:hover {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.nav-link.active {
+  color: #ffffff;
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.18);
+  border-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.2);
+}
+
+/* Rectangular framed portrait photo overlapping banner */
+.profile-photo-frame {
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  border: 4px solid #ffffff;
+}
+
+/* Floating tools button */
+.floating-tools-btn {
+  position: fixed;
+  bottom: 22px;
+  right: 24px;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  padding: 5px 14px;
+  font-size: 13px;
+  border-radius: 6px;
+  color: #4b5563;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  z-index: 50;
+  transition: all 0.15s ease;
+}
+
+.floating-tools-btn:hover {
+  background: #f9fafb;
+  color: #111827;
+  border-color: #9ca3af;
+}
+
+/* Text-only accessibility mode */
+body.owl-text-only {
+  background: #ffffff !important;
+  color: #000000 !important;
+  font-family: Georgia, serif !important;
+}
+
+body.owl-text-only .owl-banner,
+body.owl-text-only .profile-photo-container {
+  display: none !important;
+}
+
+body.owl-text-only .grid-layout {
+  display: block !important;
+}
+
+body.owl-text-only header {
+  position: static !important;
+  background: #ffffff !important;
+  border-color: #e5e7eb !important;
+  box-shadow: none !important;
+}
+
+body.owl-text-only header * {
+  color: #000000 !important;
+}
+
+/* Admin Page Transitions */
+@keyframes adminPageFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.admin-page-transition {
+  animation: adminPageFadeIn 0.22s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  will-change: opacity, transform;
+}

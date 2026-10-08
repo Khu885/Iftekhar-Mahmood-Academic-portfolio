@@ -1,0 +1,21 @@
+# Handle line endings automatically for all text files
+* text=auto eol=lf
+
+# Explicitly declare shell scripts as LF
+*.sh text eol=lf
+/mvnw text eol=lf
+
+# Windows batch files must be CRLF
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# Binary files – do not apply line-ending conversion
+*.jar binary
+*.zip binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.class binary

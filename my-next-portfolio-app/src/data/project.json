@@ -1,0 +1,38 @@
+[
+  {
+    "id": "allometric-framework",
+    "title": "Interspecies Pharmacokinetic Allometric Scaling Framework",
+    "category": "Translational Science • First-in-Human",
+    "status": "Core Methodology",
+    "description": "Extrapolating clearance, volume of distribution, and elimination half-life from preclinical animal models (mice, rats, dogs, non-human primates) to adult humans using power-law models, physiological correction factors, and brain/body-weight adjustments. Serving as an international benchmark for first-in-human starting dose projection.",
+    "highlights": [
+      "Pioneered simple and corrected allometric scaling formulas for biologics and small molecules",
+      "Evaluated species-specific predictive fidelity across 100+ pharmaceuticals",
+      "Widely recognized by regulatory reviewers for clinical trial IND safety margins"
+    ]
+  },
+  {
+    "id": "salisbury-pediatric-dosing",
+    "title": "Pediatric and Neonatal Dose Optimization via Salisbury Rule",
+    "category": "Pediatric Trials • Safety • Salisbury Rule",
+    "status": "Active Research",
+    "description": "Addressing pediatric trial failures and underdosing/overdosing risks caused by empirical weight-based and body-surface-area (BSA) conversions. Establishing validation boundaries for the weight-based Salisbury Rule and GFR maturation algorithms across therapeutic proteins, neonates, and premature infants.",
+    "highlights": [
+      "Demonstrated 0.5–1.5-fold clinical prediction accuracy across multiple pediatric cohorts",
+      "Bridged preterm neonatal clearance modeling with minimal PBPK architectures",
+      "Advised on pediatric clinical trial designs minimizing invasive blood draws"
+    ]
+  },
+  {
+    "id": "biologics-sparse-sampling",
+    "title": "Biologics Pharmacokinetics: Coagulation Factors and Sparse Sampling",
+    "category": "CBER • Hematology • Biologics",
+    "status": "Regulatory Benchmark",
+    "description": "Designing robust sparse-sampling protocols (2–3 blood draws instead of traditional 10+ sampling points) to accurately estimate area under the curve (AUC) and clearance of recombinant factor VIII and factor IX in hemophilia patients without sacrificing statistical power or patient safety.",
+    "highlights": [
+      "Alleviated sampling burden in vulnerable pediatric and adult hemophilia populations",
+      "Developed pharmacokinetic allometric scaling from animals to humans for 5 coagulation factors",
+      "Standardized review methodologies during 16-year tenure at FDA CBER"
+    ]
+  }
+]

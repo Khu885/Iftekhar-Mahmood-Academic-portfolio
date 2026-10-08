@@ -1,0 +1,86 @@
+[
+  {
+    "id": "islam-beyond-terrorists-and-terrorism",
+    "title": "Islam Beyond Terrorists and Terrorism",
+    "subtitle": "Biographies of the Most Influential Muslims in History",
+    "author": "Iftekhar Mahmood",
+    "publisher": "University Press of America",
+    "year": "2002",
+    "isbn": "978-0761822752",
+    "description": "Short biographies of influential Muslims throughout history, written to introduce their lives and contributions and to counter the identification of Islam with terrorism.",
+    "preview": "./assets/images/books/islam-beyond-terrorists-and-terrorism.svg",
+    "link": "https://www.amazon.com/Islam-Beyond-Terrorists-Terrorism-Biographies/dp/0761822755"
+  },
+  {
+    "id": "the-rise-and-fall-of-the-islamic-empires",
+    "title": "The Rise and Fall of the Islamic Empires",
+    "subtitle": "",
+    "author": "Iftekhar Mahmood",
+    "publisher": "PublishAmerica",
+    "year": "2004",
+    "isbn": "978-1413715552",
+    "description": "A concise historical account of Islamic empires. The book also addresses the misconception, after September 11, 2001, that all Muslims are violent or fundamentalist. About 198 pages.",
+    "preview": "./assets/images/books/the-rise-and-fall-of-the-islamic-empires.svg",
+    "link": "https://www.amazon.com/Rise-Fall-Islamic-Empires/dp/1413715559"
+  },
+  {
+    "id": "interspecies-pharmacokinetic-scaling",
+    "title": "Interspecies Pharmacokinetic Scaling",
+    "subtitle": "Principles and Application of Allometric Scaling",
+    "author": "Iftekhar Mahmood",
+    "publisher": "Pine House Publishers",
+    "year": "2005",
+    "isbn": "978-0976643807",
+    "description": "Practical guide to pharmacokinetic allometric scaling and its use in selecting a first-in-human dose during drug development. Published in Rockville, Maryland; 393 pages.",
+    "preview": "./assets/images/books/interspecies-pharmacokinetic-scaling.svg",
+    "link": "https://www.amazon.com/Interspecies-Pharmacokinetic-Scaling-Principles-Application/dp/0976643804"
+  },
+  {
+    "id": "clinical-pharmacology-of-therapeutic-proteins",
+    "title": "Clinical Pharmacology of Therapeutic Proteins",
+    "subtitle": "",
+    "author": "Iftekhar Mahmood (editor)",
+    "publisher": "Pine House Publishers",
+    "year": "2006",
+    "isbn": "978-0976643814",
+    "description": "Edited volume on the clinical pharmacology of therapeutic proteins, including pharmacokinetics, pharmacodynamics, analytical methods, allometric scaling, and nonclinical aspects. First edition; 565 pages.",
+    "preview": "./assets/images/books/clinical-pharmacology-of-therapeutic-proteins.svg",
+    "link": "https://www.amazon.com/Clinical-Pharmacology-Therapeutic-Proteins-Iftekhar/dp/0976643812"
+  },
+  {
+    "id": "pediatric-pharmacology-and-pharmacokinetics",
+    "title": "Pediatric Pharmacology and Pharmacokinetics",
+    "subtitle": "",
+    "author": "Iftekhar Mahmood",
+    "publisher": "Pine House Publishers",
+    "year": "2008",
+    "isbn": "978-0976643838",
+    "description": "Covers pediatric pharmacology and pharmacokinetics, including child physiology and issues in pediatric drug development. About 302 pages.",
+    "preview": "./assets/images/books/pediatric-pharmacology-and-pharmacokinetics.svg",
+    "link": "https://www.amazon.com/Pediatric-Pharmacology-Pharmacokinetics-Iftekhar-Mahmood/dp/0976643839"
+  },
+  {
+    "id": "pharmacokinetic-allometric-scaling-in-pediatric-drug-development",
+    "title": "Pharmacokinetic Allometric Scaling in Pediatric Drug Development",
+    "subtitle": "",
+    "author": "Iftekhar Mahmood",
+    "publisher": "Pine House Publishers",
+    "year": "2013",
+    "isbn": "978-0976643852",
+    "description": "Applies pharmacokinetic allometric scaling to dose selection and pediatric drug development. Published in Rockville, Maryland. ISBN-13 is derived from the listed ISBN-10 0976643855.",
+    "preview": "./assets/images/books/pharmacokinetic-allometric-scaling-in-pediatric-drug-development.svg",
+    "link": "https://www.amazon.com/PHARMACOKINETIC-ALLOMETRIC-SCALING-PEDIATRIC-DEVELOPMENT/dp/0976643855"
+  },
+  {
+    "id": "fundamentals-of-pediatric-drug-dosing",
+    "title": "Fundamentals of Pediatric Drug Dosing",
+    "subtitle": "",
+    "author": "Iftekhar Mahmood; Gilbert Burckart (editors)",
+    "publisher": "Adis (Springer International Publishing)",
+    "year": "2016",
+    "isbn": "978-3-319-43752-1",
+    "description": "Explains how pediatric physiology, pharmacology, pharmacokinetics, and pharmacodynamics differ from adults, and how those differences affect selection of a safe and efficacious dose. Hardcover ISBN; ebook ISBN 978-3-319-43754-5. A 2017 paperback reprint also exists.",
+    "preview": "./assets/images/books/fundamentals-of-pediatric-drug-dosing.svg",
+    "link": "https://link.springer.com/book/10.1007/978-3-319-43754-5"
+  }
+]

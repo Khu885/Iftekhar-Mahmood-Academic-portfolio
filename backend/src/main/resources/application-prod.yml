@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+  jpa:
+    show-sql: false
+
+app:
+  security:
+    secure-cookie: true
+    same-site: Strict
+
+server:
+  error:
+    include-message: never
+    include-binding-errors: never
