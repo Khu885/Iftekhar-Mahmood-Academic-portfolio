@@ -1,0 +1,8 @@
+target/
+*.backup
+*.log
+.git
+.idea
+.vscode
+*.cmd
+test-output.txt

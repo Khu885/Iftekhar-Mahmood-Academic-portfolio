@@ -2,7 +2,7 @@ spring:
   application:
     name: uncle-portfolio-backend
   profiles:
-    active: dev
+    active: ${SPRING_PROFILES_ACTIVE:dev}
   servlet:
     multipart:
       max-file-size: ${MAX_FILE_SIZE_MB:10}MB
