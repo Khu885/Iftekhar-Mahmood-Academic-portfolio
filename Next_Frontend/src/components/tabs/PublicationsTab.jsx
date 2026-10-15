@@ -124,11 +124,10 @@ export default function PublicationsTab({ publications = [], loading, error, onO
             setSelectedCategory("all");
             setSearchQuery("");
           }}
-          className={`px-2.5 py-1 rounded-full transition-colors ${
-            selectedCategory === "all"
+          className={`px-2.5 py-1 rounded-full transition-colors ${selectedCategory === "all"
               ? "font-semibold bg-gray-900 text-white"
               : "bg-gray-100 text-gray-700 hover:bg-gray-200"
-          }`}
+            }`}
         >
           All
         </button>
@@ -139,11 +138,10 @@ export default function PublicationsTab({ publications = [], loading, error, onO
             <button
               key={normalised}
               onClick={() => setSelectedCategory(normalised)}
-              className={`px-2.5 py-1 rounded-full transition-colors ${
-                isActive
+              className={`px-2.5 py-1 rounded-full transition-colors ${isActive
                   ? "font-semibold bg-gray-900 text-white"
                   : "bg-gray-100 text-gray-700 hover:bg-gray-200"
-              }`}
+                }`}
             >
               {display}
             </button>
@@ -183,7 +181,7 @@ export default function PublicationsTab({ publications = [], loading, error, onO
 
             return (
               <article
-                key={pub.key}
+                key={pub.id ?? pub.slug ?? index}
                 className={`pub-row pt-4 ${index === 0 ? "first:pt-0" : ""}`}
               >
                 {/* Title linked to original publication */}
