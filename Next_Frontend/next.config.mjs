@@ -1,4 +1,7 @@
-/** @type {import('next').NextConfig} */
+const backendUrl =
+  process.env.BACKEND_INTERNAL_URL ||
+  "https://iftekhar-mahmood-academic-portfolio.onrender.com";
+
 const nextConfig = {
   images: {
     remotePatterns: [
@@ -7,6 +10,14 @@ const nextConfig = {
         hostname: 'media.licdn.com',
       },
     ],
+  },
+  async rewrites() {
+    return [
+      {
+        source: '/api/:path*',
+        destination: `${backendUrl}/api/:path*`,
+      },
+    ];
   },
 };
 

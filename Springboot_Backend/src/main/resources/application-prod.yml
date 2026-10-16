@@ -20,7 +20,7 @@ spring:
 app:
   security:
     secure-cookie: true
-    same-site: Lax
+    same-site: None
 
 server:
   port: ${PORT:8080}
