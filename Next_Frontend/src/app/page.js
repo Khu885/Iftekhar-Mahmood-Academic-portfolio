@@ -147,13 +147,13 @@ export default function Home() {
       <HeroBanner />
 
       {/* Main Grid Content */}
-      <main className="max-w-6xl mx-auto px-6 w-full flex-grow pb-16">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-12 mt-0">
+      <main className="max-w-6xl mx-auto px-4 sm:px-6 w-full flex-grow pb-16">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-8 lg:gap-12 mt-0">
           {/* Left Sidebar */}
           <Sidebar onSelectTab={handleSelectTab} />
 
           {/* Right Main Content Area */}
-          <section className="md:col-span-8 lg:col-span-8.5 pt-4 sm:pt-6">
+          <section className="md:col-span-8 lg:col-span-9 pt-0 md:pt-6">
             {activeTab === "home" && <AboutTab onSelectTab={handleSelectTab} />}
             {activeTab === "publications" && (
               <PublicationsTab

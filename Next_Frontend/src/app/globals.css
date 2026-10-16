@@ -139,3 +139,21 @@ body.owl-text-only header * {
   animation: adminPageFadeIn 0.22s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   will-change: opacity, transform;
 }
+
+/* ── Mobile responsive improvements ── */
+
+/* Prevent horizontal overflow on all screens */
+html, body {
+  overflow-x: hidden;
+}
+
+/* Pub action links: larger tap area on touch screens */
+@media (max-width: 640px) {
+  .pub-row .owl-link,
+  .pub-row a {
+    min-height: 32px;
+    display: inline-flex;
+    align-items: center;
+  }
+}
+

@@ -98,11 +98,11 @@ export default function ContactTab({ onShowToast }) {
             </div>
           )}
 
-          <form onSubmit={handleSubmit} className="space-y-3">
+          <form onSubmit={handleSubmit} className="space-y-4">
             <div>
               <label
                 htmlFor="name"
-                className="block text-xs font-medium text-gray-700 mb-1"
+                className="block text-xs font-semibold text-gray-700 mb-1.5 uppercase tracking-wider"
               >
                 Your Name
               </label>
@@ -115,7 +115,7 @@ export default function ContactTab({ onShowToast }) {
                 onChange={(e) =>
                   setFormData((prev) => ({ ...prev, name: e.target.value }))
                 }
-                className="w-full px-3 py-1.5 text-xs border border-gray-300 rounded focus:outline-none focus:border-gray-800"
+                className="w-full px-3.5 py-2.5 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-1 focus:ring-gray-900 focus:border-gray-900 transition-colors"
                 placeholder="Dr. John Smith"
               />
             </div>
@@ -123,7 +123,7 @@ export default function ContactTab({ onShowToast }) {
             <div>
               <label
                 htmlFor="email"
-                className="block text-xs font-medium text-gray-700 mb-1"
+                className="block text-xs font-semibold text-gray-700 mb-1.5 uppercase tracking-wider"
               >
                 Your Email
               </label>
@@ -136,7 +136,7 @@ export default function ContactTab({ onShowToast }) {
                 onChange={(e) =>
                   setFormData((prev) => ({ ...prev, email: e.target.value }))
                 }
-                className="w-full px-3 py-1.5 text-xs border border-gray-300 rounded focus:outline-none focus:border-gray-800"
+                className="w-full px-3.5 py-2.5 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-1 focus:ring-gray-900 focus:border-gray-900 transition-colors"
                 placeholder="john.smith@organization.org"
               />
             </div>
@@ -144,7 +144,7 @@ export default function ContactTab({ onShowToast }) {
             <div>
               <label
                 htmlFor="message"
-                className="block text-xs font-medium text-gray-700 mb-1"
+                className="block text-xs font-semibold text-gray-700 mb-1.5 uppercase tracking-wider"
               >
                 Message
               </label>
@@ -157,7 +157,7 @@ export default function ContactTab({ onShowToast }) {
                 onChange={(e) =>
                   setFormData((prev) => ({ ...prev, message: e.target.value }))
                 }
-                className="w-full px-3 py-1.5 text-xs border border-gray-300 rounded focus:outline-none focus:border-gray-800"
+                className="w-full px-3.5 py-2.5 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-1 focus:ring-gray-900 focus:border-gray-900 transition-colors"
                 placeholder="Write your message..."
               />
             </div>
@@ -165,7 +165,7 @@ export default function ContactTab({ onShowToast }) {
             <button
               type="submit"
               disabled={submitting}
-              className="px-4 py-1.5 text-xs font-semibold bg-gray-900 text-white rounded hover:bg-gray-800 transition-colors disabled:opacity-50 cursor-pointer"
+              className="w-full sm:w-auto px-6 py-2.5 text-sm font-semibold bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors disabled:opacity-50 cursor-pointer shadow-sm"
             >
               {submitting ? "Sending..." : "Send Note"}
             </button>

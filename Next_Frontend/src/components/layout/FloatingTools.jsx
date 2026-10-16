@@ -22,10 +22,10 @@ export default function FloatingTools({ onOpenModal, onToggleTextOnly }) {
 
   return (
     <div ref={containerRef}>
-      {/* Floating Tools Button */}
+      {/* Floating Tools Button — hidden on tiny phones, visible on sm+ */}
       <button
         onClick={() => setIsOpen((prev) => !prev)}
-        className="floating-tools-btn"
+        className="floating-tools-btn hidden sm:block"
         aria-label="Tools"
       >
         tools

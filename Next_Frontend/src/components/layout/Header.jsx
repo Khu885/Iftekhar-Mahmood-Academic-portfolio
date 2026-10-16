@@ -57,10 +57,10 @@ export default function Header({ activeTab, onSelectTab }) {
             onClick={() => handleTabClick("home")}
             className="group flex shrink-0 items-center space-x-2.5 text-white hover:text-blue-200 transition-colors text-left"
           >
-            <span className="text-xl sm:text-[22px] font-bold tracking-tight text-white drop-shadow-sm">
+            <span className="text-lg sm:text-xl md:text-[22px] font-bold tracking-tight text-white drop-shadow-sm truncate">
               Iftekhar Mahmood
             </span>
-            <span className="text-[11px] font-semibold text-blue-300 bg-blue-500/20 border border-blue-400/30 px-2.5 py-0.5 rounded-full tracking-wide uppercase shadow-sm">
+            <span className="text-[10px] sm:text-[11px] font-semibold text-blue-300 bg-blue-500/20 border border-blue-400/30 px-2 sm:px-2.5 py-0.5 rounded-full tracking-wide uppercase shadow-sm shrink-0">
               Ph.D.
             </span>
           </button>
@@ -84,12 +84,12 @@ export default function Header({ activeTab, onSelectTab }) {
           </nav>
         </div>
 
-        {/* Top Right Corner Login Button (Far Right) */}
+        {/* Top Right Corner Login Button (Far Right — visible on sm+ screens) */}
         <div className="flex-1 flex items-center justify-end gap-3 shrink-0">
           <Link
             href="/admin/login"
             id="admin-login-button"
-            className="inline-flex items-center gap-2 rounded-none bg-yellow-500 px-3.5 py-1.5 text-xs font-semibold text-black transition-colors hover:bg-yellow-600 shadow-sm"
+            className="hidden sm:inline-flex items-center gap-2 rounded-none bg-yellow-500 px-3.5 py-1.5 text-xs font-semibold text-black transition-colors hover:bg-yellow-600 shadow-sm"
             title={isAuthenticated ? "Open Admin Dashboard" : "Sign in to Admin"}
           >
             {isAuthenticated ? (
@@ -133,24 +133,28 @@ export default function Header({ activeTab, onSelectTab }) {
       {mobileMenuOpen && (
         <div
           id="mobile-menu"
-          className="md:hidden border-t border-white/10 bg-slate-950/95 backdrop-blur-xl px-6 py-4 space-y-1.5 shadow-2xl"
+          className="md:hidden border-t border-white/10 bg-slate-950/95 backdrop-blur-xl px-4 py-3 space-y-1 shadow-2xl"
         >
           {navItems.map((item) => (
             <button
               key={item.id}
               onClick={() => handleTabClick(item.id)}
-              className={`block w-full text-left py-2 px-3 rounded-lg text-sm transition-colors ${activeTab === item.id
-                ? "font-semibold text-white bg-white/15"
+              className={`flex items-center justify-between w-full text-left py-2.5 px-3.5 rounded-lg text-sm transition-colors ${activeTab === item.id
+                ? "font-semibold text-white bg-blue-600/30 border border-blue-500/30"
                 : "font-medium text-slate-300 hover:text-white hover:bg-white/10"
                 }`}
             >
-              {item.label}
+              <span>{item.label}</span>
+              {activeTab === item.id && (
+                <span className="w-1.5 h-1.5 rounded-full bg-blue-400"></span>
+              )}
             </button>
           ))}
-          <div className="mt-2 border-t border-white/10 pt-2">
+          <div className="mt-3 border-t border-white/10 pt-3">
             <Link
               href="/admin/login"
-              className="inline-flex items-center gap-2 rounded-none bg-yellow-500 px-3 py-2 text-sm font-medium text-black transition-colors hover:bg-yellow-600"
+              onClick={() => setMobileMenuOpen(false)}
+              className="flex items-center justify-center gap-2 w-full rounded-md bg-yellow-500 px-4 py-2.5 text-sm font-semibold text-black transition-colors hover:bg-yellow-600 shadow-sm"
             >
               <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path
@@ -160,7 +164,7 @@ export default function Header({ activeTab, onSelectTab }) {
                   d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
                 />
               </svg>
-              <span>{isAuthenticated ? "Admin Panel" : "Login"}</span>
+              <span>{isAuthenticated ? "Open Admin Panel" : "Sign in to Admin"}</span>
             </Link>
           </div>
         </div>

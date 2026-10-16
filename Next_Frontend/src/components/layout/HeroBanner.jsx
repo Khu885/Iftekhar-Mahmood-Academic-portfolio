@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HeroBanner() {
   return (
-    <div className="relative w-full bg-[#070c17] border-b border-slate-900 shadow-md h-[220px] sm:h-[240px] overflow-hidden">
+    <div className="relative w-full bg-[#070c17] border-b border-slate-900 shadow-md h-[160px] sm:h-[200px] md:h-[240px] overflow-hidden">
       {/* Full-bleed Banner Graphic Background behind the navbar */}
       <div className="owl-banner absolute inset-0 w-full h-full overflow-hidden pointer-events-none">
         <Image

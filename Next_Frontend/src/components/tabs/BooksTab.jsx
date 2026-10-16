@@ -40,7 +40,7 @@ export default function BooksTab({ books = [], loading, error, onOpenBookPreview
         </p>
       </div>
 
-      <div id="books-items-container" className="grid grid-cols-1 sm:grid-cols-2 gap-5 pt-2">
+      <div id="books-items-container" className="grid grid-cols-1 md:grid-cols-2 gap-5 pt-2">
         {books.map((book) => (
           <div
             key={book.id}
